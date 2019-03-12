@@ -30,7 +30,7 @@ real projects:
 * [include](./include)
   * [my_library.hpp](./include/my_library.hpp)
 
-**result** Here you should put the output binaries and the output libraries.
+**Results Artifacts** Here you should put the output binaries and the output libraries.
 
 * [result](./result)
   * [x86_64](./result/x86_64)
