@@ -35,3 +35,4 @@ real projects:
 * [result](./result)
   * [x86_64](./result/x86_64)
     * [lib](./result/x86_64/lib)
+    * [binary_example](./result/x86_64/example_output)
