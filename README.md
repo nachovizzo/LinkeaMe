@@ -22,7 +22,7 @@ real projects:
 **Source Files** This is usually the place where you put your source code:
 
 * [src](./src)
-  * [substract.cpp](./src/substract.cpp)
+  * [subtract.cpp](./src/subtract.cpp)
   * [sum.cpp](./src/sum.cpp)
   * [main.cpp](./src/main.cpp)
 
