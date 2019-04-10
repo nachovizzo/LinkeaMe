@@ -12,8 +12,8 @@ using std::endl;
 int main() {
   float x = 1.0;
   float y = 2.0;
-  cout << "x= " << x << " + y=" << y << " = " << my_sum(x, y) << endl
-       << "x= " << x << " - y=" << y << " = " << my_subtract(x, y) << endl;
+  cout << "The sum of " << x << "+" << y << " = " << my_sum(x, y) << endl
+       << "The sub of " << x << "-" << y << " = " << my_subtract(x, y) << endl;
 
   return 0;
 }
