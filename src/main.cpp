@@ -6,12 +6,14 @@
 #include <iostream>
 #include <my_library/library_api.hpp>
 
+using std::cout;
+using std::endl;
+
 int main() {
   float x = 1.0;
   float y = 2.0;
-  std::cout << "The sum of " << x << " + " << y << " = " << my_sum(x, y) << "\n"
-            << "The subtract of " << x << " - " << y << " = "
-            << my_subtract(x, y) << "\n";
+  cout << "x= " << x << " + y=" << y << " = " << my_sum(x, y) << endl
+       << "x= " << x << " - y=" << y << " = " << my_subtract(x, y) << endl;
 
   return 0;
 }
