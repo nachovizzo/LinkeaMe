@@ -3,6 +3,6 @@
  *
  * Copyright (c) 2019 Ignacio Vizzo
  */
-#include <my_library.hpp>
+#include <my_library/library_api.hpp>
 
 float my_sum(float x, float y) { return x + y; }

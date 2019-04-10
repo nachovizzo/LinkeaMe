@@ -4,7 +4,7 @@
  * Copyright (c) 2019 Ignacio Vizzo
  */
 #include <iostream>
-#include <my_library.hpp>
+#include <my_library/library_api.hpp>
 
 int main(int argc, char **argv) {
   float x = 1.0;
