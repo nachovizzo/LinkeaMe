@@ -8,9 +8,9 @@
 #define MY_LIBRARY_LIBRARY_API_HPP_
 
 // This function performs a sum and that's it :P
-float my_sum(float x, float y);
+float MySum(float x, float y);
 
 // This function performs a subtract and that's it :P
-float my_subtract(float x, float y);
+float MySubtract(float x, float y);
 
 #endif  // MY_LIBRARY_LIBRARY_API_HPP_

@@ -6,4 +6,4 @@
 
 #include <my_library/library_api.hpp>
 
-float my_subtract(float x, float y) { return x - y; }
+float MySubtract(float x, float y) { return x - y; }

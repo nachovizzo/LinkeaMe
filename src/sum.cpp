@@ -5,4 +5,4 @@
  */
 #include <my_library/library_api.hpp>
 
-float my_sum(float x, float y) { return x + y; }
+float MySum(float x, float y) { return x + y; }
