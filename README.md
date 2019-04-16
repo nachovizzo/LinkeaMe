@@ -11,7 +11,7 @@ You have one very **very** simple main program, that invoke 2 methods from one
 library **my_library.hpp**. You need to build the main program, the library
 objects and link all together for a desktop target.
 
-There is an [example](./result/bin/example_output) x68_64 binary in order to
+There is an [example](./results/bin/example_output) x68_64 binary in order to
 try it before you start working.
 
 ## Dir structure
@@ -34,10 +34,10 @@ real projects:
 **Results Artifacts** Here you should put the output binaries and the output
 libraries.
 
-- [result](./result)
-  - [lib](./result//lib)
-  - [bin](./result/bin)
-    - [binary_example](./result/bin/example_output)
+- [results](./results)
+  - [lib](./results//lib)
+  - [bin](./results/bin)
+    - [binary_example](./results/bin/example_output)
 
 ## Exercise 1
 
