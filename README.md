@@ -8,7 +8,7 @@ tool. And one just need to learn how to use it.
 ## What is the exercise about
 
 You have one very **very** simple main program, that invoke 2 methods from one
-library **my_library.hpp**. You need to build the main program, the library
+library **ipb_arithmetic.hpp**. You need to build the main program, the library
 objects and link all together for a desktop target.
 
 There is an [example](./results/bin/example_output) x68_64 binary in order to
@@ -29,7 +29,7 @@ real projects:
 **Include** This is usually where the API of your application/library is.
 
 - [include](./include)
-  - [my_library.hpp](./include/my_library.hpp)
+  - [ipb_arithmetic.hpp](./include/ipb_arithmetic.hpp)
 
 **Results Artifacts** Here you should put the output binaries and the output
 libraries.
@@ -47,7 +47,7 @@ program in a really **old fashion** way.
 For this you will need to do the following tasks:
 
 - Create an empty directory in your source tree, let's call it `./build`
-- Compile the two objects needed for building the library **my_library**:
+- Compile the two objects needed for building the library **ipb_arithmetic**:
 
 From the gcc manual **`man gcc`**
 
@@ -84,7 +84,7 @@ build
 
 ```sh
 # always start the name of your library with 'lib'
-ar rcs build/libmy_library.a build/sum.o build/subtract.o
+ar rcs build/libipb_arithmetic.a build/sum.o build/subtract.o
 ```
 
 - Now you can build your main program, for this, you will need to build this
