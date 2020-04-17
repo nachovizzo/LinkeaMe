@@ -49,10 +49,10 @@ For this you will need to do the following tasks:
 - Create an empty directory in your source tree, let's call it `./build`
 - Compile the two objects needed for building the library **ipb_arithmetic**:
 
-From the gcc manual **`man gcc`**
+From the clang manual **`man clang`**
 
 ```sh
-When you invoke GCC, it normally does preprocessing, compilation, assembly and
+When you invoke clang, it normally does preprocessing, compilation, assembly and
 linking. The overall options allow you to stop this process at an intermediate
 stage. For example, the -c option says not to run the linker. Then the output
 consists of object files output by the assembler.
@@ -67,7 +67,7 @@ consists of object files output by the assembler.
 So far your first build command should look something like:
 
 ```sh
-g++ -c -Idir/ src/_file_.cpp -o build/name.o
+c++ -c -Idir/ src/_file_.cpp -o build/name.o
 ```
 
 - Once you have the two objects built for the library your `build` directory
